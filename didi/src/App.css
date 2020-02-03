@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+.App{
+  background-image: url('https://zupimages.net/up/20/06/873l.jpg');
+  background-size: cover;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.flexDivOfNavbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'Lobster', cursive;
+  /* background-image: url('https://zupimages.net/up/20/06/gl8c.png'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.linkNavBar{
+  font-size: 24px;
+  margin-top: 5%;
+  text-decoration: none;
+  color: black;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.titleNavbar{
+  font-size: 58px;
+}
+.aboutMe{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 30%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.test{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.aboutMe img {
+  width: 20%;
+}
+.beforeAfter{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.beforeAfter img{
+  width: 20%;
+  height: 30%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.beforeAfter img:hover{
+  width: 30%;
+  height: 40%;
+}
+.separation{
+  margin: 1%;
+}
+.price{
+  display:flex;
+  flex-direction: column;
+  font-family: 'Lobster', cursive;
+  align-items: center;
+  font-size: 38px;
+}
+.priceTitle{
+  text-decoration: underline;
 }
