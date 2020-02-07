@@ -7,9 +7,9 @@ const Navbar = () => {
         <div className = 'flexDivOfNavbar'>
             <Link to ='/' className = 'linkNavBar'>A propos de moi</Link>
             <Link to = '/tarifs' className = 'linkNavBar'>Mes tarifs</Link>
-            <p className =' titleNavbar'>Andy</p>
-            <p className = 'linkNavBar'>Devis rapide</p>
-            <p className = 'linkNavBar'>Me contacter</p>
+                <p className =' titleNavbar'>Andy</p>
+            <Link to ='/devis' className = 'linkNavBar'>Devis rapide</Link>
+            <Link to = '/contact' className = 'linkNavBar'>Me contacter</Link>
         </div>
     )
 }
